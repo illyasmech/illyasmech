@@ -9,7 +9,7 @@ const SITE = {
 const COURSES = [
   {
     code: "MED 30",
-    title: "Thermal Engineering",
+    title: "only Engineering",
     term: "Odd Sem 2025",
     instructor: "Mohamed Illyas",
     materials: [
@@ -270,3 +270,4 @@ document.addEventListener("DOMContentLoaded", ()=>{
   renderPost();
 
 });
+
