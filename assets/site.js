@@ -8,9 +8,9 @@ const SITE = {
 
 const COURSES = [
   {
-    code: "ME501",
-    title: "Heat Transfer",
-    term: "Even Sem 2026",
+    code: "MED 3101",
+    title: "Heat and Mass Transfer",
+    term: "odd semester 2026",
     instructor: "Mohamed Illyas",
     materials: [
       { type:"Notes", title:"new_notes (PDF)", file:"materials/new_notes.pdf" },
@@ -268,4 +268,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
   renderCourses();
   renderBlog();
   renderPost();
+
 });
