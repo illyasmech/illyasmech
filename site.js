@@ -8,7 +8,7 @@ const SITE = {
 
 const COURSES = [
   {
-    code: "MED 3101",
+    code: "MED 30",
     title: "Heat and Mass Transfer",
     term: "Odd Sem 2025",
     instructor: "Mohamed Illyas",
@@ -268,4 +268,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
   renderCourses();
   renderBlog();
   renderPost();
+
 });
