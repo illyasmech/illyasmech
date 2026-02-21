@@ -13,7 +13,7 @@ const COURSES = [
     term: "odd semester 2025",
     instructor: "Mohamed Illyas",
     materials: [
-      { type:"course Materials", title:"Module 1 (PDF)", file:"materials/new_notes.pdf" },
+      { type:"New course Materials", title:"Module 1 (PDF)", file:"materials/new_notes.pdf" },
       { type:"PPT", title:"Conduction Slides", file:"materials/conduction-slides.pdf" },
       { type:"Assignment", title:"Assignment 1", file:"materials/assignment-1.pdf" },
     ]
@@ -270,4 +270,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
   renderPost();
 
 });
+
 
