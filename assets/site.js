@@ -10,7 +10,7 @@ const COURSES = [
   {
     code: "MED 3101",
     title: "Heat and Mass Transfer",
-    term: "odd Semester 2025",
+    term: "odd semester 2025",
     instructor: "Mohamed Illyas",
     materials: [
       { type:"Notes", title:"new_notes (PDF)", file:"materials/new_notes.pdf" },
@@ -21,7 +21,7 @@ const COURSES = [
   {
     code: "MEDX 38",
     title: "Solar Engineering",
-    term: "odd Semester 2025",
+    term: "odd semester 2025",
     instructor: "Mohamed Illyas",
     materials: [
       { type:"Notes", title:"Solar Radiation – Notes", file:"materials/solar-radiation-notes.pdf" },
@@ -268,4 +268,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
   renderCourses();
   renderBlog();
   renderPost();
+
 });
